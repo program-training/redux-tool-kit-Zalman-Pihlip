@@ -1,11 +1,12 @@
 import './App.css'
-
-function App() {
-
+import Body from "./components/Body";
+import Header from "./components/Header"
+const  App = () => {
   return (
-    <>
-      <div>hello !</div>
-    </>
+     <>
+     <Header/>
+     <Body/>
+     </>
   )
 }
 
